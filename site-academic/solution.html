@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Solution — Project Remote UGV</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="masthead">
+      <div class="brand">Project Remote UGV</div>
+      <div class="meta">ENGR 103 · Spring 2026</div>
+    </div>
+    <nav><ul>
+      <li><a href="index.html">Need</a></li>
+      <li><a href="solution.html" class="active">Solution</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="evidence.html">Evidence</a></li>
+      <li><a href="gallery.html">Plates</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <h1>§3 The Solution</h1>
+    <p class="subtitle">A 3D-printed, 4-wheeled UGV with onboard Raspberry Pi and camera</p>
+  </section>
+
+  <figure>
+    <object type="image/svg+xml" data="assets/drone-top.svg" aria-label="Top view of UGV"></object>
+    <figcaption><strong>Figure 2.</strong> Top view — 4-wheeled UGV with onboard electronics bay.</figcaption>
+  </figure>
+
+  <section>
+    <h2>Specifications</h2>
+    <table class="specs">
+      <tbody>
+        <tr><td>Length</td><td>177.8&thinsp;mm (7")</td></tr>
+        <tr><td>Width</td><td>88.9&thinsp;mm (3.5")</td></tr>
+        <tr><td>Wall height</td><td>31.75&thinsp;mm (1.25")</td></tr>
+        <tr><td>Chassis</td><td>3D-printed PLA, open-top rectangular tub</td></tr>
+        <tr><td>Compute</td><td>Raspberry Pi (Raspberry Pi OS)</td></tr>
+        <tr><td>Drive</td><td>2 × low-cost DC motors via motor driver</td></tr>
+        <tr><td>Power</td><td>Dual battery pack</td></tr>
+        <tr><td>Sensor</td><td>Onboard camera module (live video)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Bill of materials</h2>
+    <table class="specs">
+      <thead><tr><th>Component</th><th>Cost</th></tr></thead>
+      <tbody>
+        <tr><td>Raspberry Pi</td><td>~$35</td></tr>
+        <tr><td>Motor driver</td><td>~$5</td></tr>
+        <tr><td>Dual battery pack</td><td>~$10</td></tr>
+        <tr><td>2 × DC motors</td><td>~$10</td></tr>
+        <tr><td>3D-printed PLA chassis</td><td>~$3 (filament)</td></tr>
+        <tr><td><strong>Total per unit</strong></td><td><strong>~$63</strong></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <figure>
+    <object type="image/svg+xml" data="assets/exploded.svg" aria-label="Exploded view"></object>
+    <figcaption><strong>Figure 3.</strong> Exploded assembly. Chassis is the core structural element; all other components mount to it.</figcaption>
+  </figure>
+
+  <section>
+    <h2>Why ground, not air?</h2>
+    <p>An aerial alternative was considered but rejected after a Weighted Benefit Analysis (see §5 — Evidence). Ground-based is quieter, lower-profile, and ~70% cheaper to build, which matters more for a unit intended to be expendable in tight indoor environments.</p>
+  </section>
+
+  <div class="page-nav">
+    <a href="index.html">&larr; §1–2 The Need</a>
+    <a href="feedback.html">§4 — Feedback &rarr;</a>
+  </div>
+</main>
+
+<footer class="foot">
+  <div>Remote UGV / ENGR 103 Design Project</div>
+  <div>R. Merry &amp; G. Kinkaid · 2026</div>
+</footer>
+
+</body>
+</html>
