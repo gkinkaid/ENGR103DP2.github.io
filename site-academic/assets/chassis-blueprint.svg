@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Engineering blueprint of the 3D-printed UGV chassis tub with dimensions">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="currentColor" stroke-opacity="0.08" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#grid)"/>
+
+  <!-- TOP VIEW (plan): rectangular tub, 7" × 3.5" -->
+  <g transform="translate(180 90)" fill="none" stroke="currentColor" stroke-width="2">
+    <!-- outer wall -->
+    <rect x="0" y="0" width="440" height="200" rx="6"/>
+    <!-- inner floor -->
+    <rect x="14" y="14" width="412" height="172" rx="3" stroke-opacity="0.5"/>
+    <!-- mounting / standoff holes -->
+    <circle cx="34" cy="34" r="4"/>
+    <circle cx="406" cy="34" r="4"/>
+    <circle cx="34" cy="166" r="4"/>
+    <circle cx="406" cy="166" r="4"/>
+    <!-- battery cutout outline -->
+    <rect x="160" y="70" width="120" height="60" rx="3" stroke-opacity="0.55"/>
+    <text x="220" y="105" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="currentColor" fill-opacity="0.6">BATT BAY</text>
+  </g>
+
+  <!-- SIDE VIEW (profile): wall height 1.25" -->
+  <g transform="translate(180 360)" fill="none" stroke="currentColor" stroke-width="2">
+    <!-- tub side: outer -->
+    <path d="M 0 0 L 440 0 L 440 60 L 0 60 Z"/>
+    <!-- inner floor line (wall + floor thickness) -->
+    <path d="M 14 14 L 426 14 L 426 60 L 14 60 Z" stroke-opacity="0.45" stroke-dasharray="3 4"/>
+    <!-- wheels (front + rear pair) -->
+    <circle cx="80" cy="60" r="22" stroke-opacity="0.7"/>
+    <circle cx="360" cy="60" r="22" stroke-opacity="0.7"/>
+  </g>
+
+  <!-- DIMENSION LINES -->
+  <g stroke="currentColor" stroke-width="1" stroke-opacity="0.7" font-family="ui-monospace, monospace" font-size="13" fill="currentColor">
+    <!-- length -->
+    <line x1="180" y1="60" x2="620" y2="60"/>
+    <line x1="180" y1="54" x2="180" y2="66"/>
+    <line x1="620" y1="54" x2="620" y2="66"/>
+    <text x="400" y="50" text-anchor="middle">177.8 mm (7")</text>
+
+    <!-- width -->
+    <line x1="650" y1="90" x2="650" y2="290"/>
+    <line x1="644" y1="90" x2="656" y2="90"/>
+    <line x1="644" y1="290" x2="656" y2="290"/>
+    <text x="660" y="186" text-anchor="start">88.9 mm</text>
+    <text x="660" y="202" text-anchor="start">(3.5")</text>
+
+    <!-- height (side view) -->
+    <line x1="640" y1="360" x2="640" y2="420"/>
+    <line x1="634" y1="360" x2="646" y2="360"/>
+    <line x1="634" y1="420" x2="646" y2="420"/>
+    <text x="650" y="395" text-anchor="start">31.75 mm (1.25")</text>
+
+    <!-- wheelbase -->
+    <line x1="260" y1="455" x2="540" y2="455"/>
+    <line x1="260" y1="449" x2="260" y2="461"/>
+    <line x1="540" y1="449" x2="540" y2="461"/>
+    <text x="400" y="475" text-anchor="middle">wheelbase</text>
+  </g>
+
+  <!-- TITLE BLOCK -->
+  <g font-family="ui-monospace, monospace" font-size="12" fill="currentColor" fill-opacity="0.85">
+    <text x="20" y="30" font-weight="bold" font-size="14">RCCHASSIS2 — UGV CHASSIS TUB</text>
+    <text x="20" y="50">DRAWN: R. MERRY &amp; G. KINKAID</text>
+    <text x="20" y="68">MATL: PLA, 1.75&thinsp;mm</text>
+    <text x="20" y="86">UNITS: in (mm shown)</text>
+
+    <text x="20" y="320" font-weight="bold">PLAN VIEW</text>
+    <text x="20" y="395" font-weight="bold">SIDE PROFILE</text>
+
+    <text x="20" y="470">REV: 2</text>
+    <text x="700" y="470" text-anchor="end">ENGR 103 / D8</text>
+  </g>
+</svg>

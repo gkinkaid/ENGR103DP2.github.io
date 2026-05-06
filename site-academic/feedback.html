@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Feedback — Project Remote UGV</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="masthead">
+      <div class="brand">Project Remote UGV</div>
+      <div class="meta">ENGR 103 · Spring 2026</div>
+    </div>
+    <nav><ul>
+      <li><a href="index.html">Need</a></li>
+      <li><a href="solution.html">Solution</a></li>
+      <li><a href="feedback.html" class="active">Feedback</a></li>
+      <li><a href="evidence.html">Evidence</a></li>
+      <li><a href="gallery.html">Plates</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <h1>§4 User Feedback</h1>
+    <p class="subtitle">Two subject-matter interviews shaped the design direction</p>
+  </section>
+
+  <section>
+    <h2>4.1 Interviewees</h2>
+
+    <div class="quote">
+      <blockquote>"The main function of drones / RC vehicles in SWAT is to reduce risk to law enforcement officers. The unit gets deployed to a strategic position inside the structure, hides itself, and looks for movement and location of the bad guys. All members of the team are trained on operating the devices."</blockquote>
+      <cite><strong>David Kinkaid</strong> · Retired SWAT Team Commander, FBI Los Angeles</cite>
+    </div>
+
+    <div class="quote">
+      <blockquote>"Cost-effectiveness is the right competition to be in. Add a receiver for known signals on top of the camera so you get more data. Raspberry Pi is a robust option for a Linux dev environment, and the software should be built so the product can scale."</blockquote>
+      <cite><strong>Kevin Vo</strong> · B.S. Aerospace Engineering, NIWC Pacific Scientist</cite>
+    </div>
+  </section>
+
+  <section>
+    <h2>4.2 Design changes driven by feedback</h2>
+    <table class="specs">
+      <thead><tr><th>Feedback</th><th>Change</th></tr></thead>
+      <tbody>
+        <tr><td>"Operator stays in the back of the formation."</td><td>RC link prioritized over autonomy in v1 — direct human pilot.</td></tr>
+        <tr><td>"Add a receiver for known signals."</td><td>Reserved expansion bay on the chassis for an SDR / signal module.</td></tr>
+        <tr><td>"Raspberry Pi is robust for scaling."</td><td>Pi adopted as compute platform; software written modularly for future upgrades.</td></tr>
+        <tr><td>"All SWAT members must operate it with base training."</td><td>Controls intentionally simple — no flight modes, no calibration steps.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>4.3 User-feedback test plan</h2>
+    <p>Bring the printed prototype with electronics installed. Provide minimal instruction. Ask:</p>
+    <ul class="bullets">
+      <li>How intuitive are the controls?</li>
+      <li>Can you turn the system on without help?</li>
+      <li>How does the movement feel?</li>
+      <li>Is the visual feedback usable?</li>
+      <li>What else should we improve?</li>
+    </ul>
+  </section>
+
+  <figure>
+    <object type="image/svg+xml" data="assets/iteration.svg" aria-label="Three iterations"></object>
+    <figcaption><strong>Figure 4.</strong> Design progression across iterations.</figcaption>
+  </figure>
+
+  <div class="page-nav">
+    <a href="solution.html">&larr; §3 The Solution</a>
+    <a href="evidence.html">§5 — Evidence &rarr;</a>
+  </div>
+</main>
+
+<footer class="foot">
+  <div>Remote UGV / ENGR 103 Design Project</div>
+  <div>R. Merry &amp; G. Kinkaid · 2026</div>
+</footer>
+
+</body>
+</html>

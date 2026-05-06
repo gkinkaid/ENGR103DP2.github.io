@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 580" role="img" aria-label="Exploded assembly view of Remote UGV showing camera, Raspberry Pi, motor driver, dual battery, chassis tub, two DC motors, two driven wheels, and one support wheel">
+  <g font-family="system-ui, sans-serif" font-size="13" fill="currentColor">
+
+    <!-- TOP: Camera -->
+    <g transform="translate(330 50)">
+      <rect x="-22" y="-16" width="44" height="32" rx="3" fill="currentColor" fill-opacity="0.7"/>
+      <circle cx="0" cy="0" r="9" fill="none" stroke="#fff" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="4" fill="#fff"/>
+    </g>
+    <text x="540" y="55" fill-opacity="0.85">Camera (live video)</text>
+    <line x1="425" y1="50" x2="535" y2="50" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- Raspberry Pi -->
+    <g transform="translate(330 130)">
+      <rect x="-55" y="-22" width="110" height="44" rx="3" fill="currentColor" fill-opacity="0.45"/>
+      <rect x="-48" y="-14" width="40" height="14" rx="1" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+      <circle cx="40" cy="-12" r="3" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+      <circle cx="40" cy="0" r="3" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+      <circle cx="40" cy="12" r="3" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+    </g>
+    <text x="540" y="135" fill-opacity="0.85">Raspberry Pi</text>
+    <line x1="475" y1="130" x2="535" y2="130" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- Motor driver -->
+    <g transform="translate(330 210)">
+      <rect x="-45" y="-18" width="90" height="36" rx="3" fill="currentColor" fill-opacity="0.55"/>
+      <line x1="-30" y1="-18" x2="-30" y2="-24" stroke="currentColor" stroke-opacity="0.5"/>
+      <line x1="-15" y1="-18" x2="-15" y2="-24" stroke="currentColor" stroke-opacity="0.5"/>
+      <line x1="0" y1="-18" x2="0" y2="-24" stroke="currentColor" stroke-opacity="0.5"/>
+      <line x1="15" y1="-18" x2="15" y2="-24" stroke="currentColor" stroke-opacity="0.5"/>
+      <line x1="30" y1="-18" x2="30" y2="-24" stroke="currentColor" stroke-opacity="0.5"/>
+    </g>
+    <text x="540" y="215" fill-opacity="0.85">Motor driver</text>
+    <line x1="480" y1="210" x2="535" y2="210" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- Dual battery pack -->
+    <g transform="translate(330 290)">
+      <rect x="-65" y="-18" width="130" height="36" rx="4" fill="currentColor" fill-opacity="0.6"/>
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="currentColor" stroke-opacity="0.35"/>
+      <rect x="-58" y="-10" width="50" height="20" rx="2" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
+      <rect x="8" y="-10" width="50" height="20" rx="2" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
+    </g>
+    <text x="540" y="295" fill-opacity="0.85">Dual battery pack</text>
+    <line x1="500" y1="290" x2="535" y2="290" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- CHASSIS (highlighted) -->
+    <g transform="translate(330 380)">
+      <!-- top-down rectangle of tub -->
+      <rect x="-150" y="-32" width="300" height="64" rx="6" fill="currentColor" fill-opacity="0.9"/>
+      <rect x="-138" y="-22" width="276" height="44" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.3"/>
+      <!-- motor slots -->
+      <rect x="-25" y="-32" width="50" height="10" rx="1" fill="currentColor" fill-opacity="0.4"/>
+      <rect x="-25" y="22" width="50" height="10" rx="1" fill="currentColor" fill-opacity="0.4"/>
+    </g>
+    <text x="540" y="380" font-weight="bold" fill-opacity="0.95">Chassis (tub)</text>
+    <text x="540" y="396" fill-opacity="0.65" font-size="11">3D-printed PLA · 7" × 3.5" × 1.25"</text>
+    <line x1="485" y1="380" x2="535" y2="380" stroke="currentColor" stroke-opacity="0.7" stroke-width="2"/>
+
+    <!-- Two DC motors -->
+    <g transform="translate(330 460)">
+      <rect x="-90" y="-14" width="50" height="28" rx="3" fill="currentColor" fill-opacity="0.7"/>
+      <circle cx="-30" cy="0" r="8" fill="none" stroke="currentColor" stroke-opacity="0.6"/>
+      <rect x="40" y="-14" width="50" height="28" rx="3" fill="currentColor" fill-opacity="0.7"/>
+      <circle cx="30" cy="0" r="8" fill="none" stroke="currentColor" stroke-opacity="0.6"/>
+    </g>
+    <text x="540" y="465" fill-opacity="0.85">2 × DC motors</text>
+    <line x1="485" y1="460" x2="535" y2="460" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- Wheels: 2 driven side wheels + 1 front support -->
+    <g transform="translate(330 540)">
+      <!-- left driven wheel -->
+      <rect x="-110" y="-18" width="50" height="36" rx="6" fill="currentColor" fill-opacity="0.85"/>
+      <circle cx="-85" cy="0" r="6" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
+      <!-- right driven wheel -->
+      <rect x="60" y="-18" width="50" height="36" rx="6" fill="currentColor" fill-opacity="0.85"/>
+      <circle cx="85" cy="0" r="6" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
+      <!-- front support wheel (caster) -->
+      <circle cx="0" cy="0" r="16" fill="currentColor" fill-opacity="0.85"/>
+      <circle cx="0" cy="0" r="6" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
+    </g>
+    <text x="540" y="538" fill-opacity="0.85">2 driven wheels +</text>
+    <text x="540" y="554" fill-opacity="0.85">1 front support wheel</text>
+    <line x1="445" y1="540" x2="535" y2="540" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- vertical assembly axis -->
+    <line x1="330" y1="30" x2="330" y2="565" stroke="currentColor" stroke-opacity="0.15" stroke-dasharray="3 5"/>
+
+    <!-- top/bottom labels -->
+    <text x="40" y="55" text-anchor="start" fill-opacity="0.65" font-size="11">— TOP —</text>
+    <text x="40" y="540" text-anchor="start" fill-opacity="0.65" font-size="11">— BOTTOM —</text>
+  </g>
+</svg>

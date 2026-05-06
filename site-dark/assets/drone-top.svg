@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Top-down view of quadcopter drone with 3D-printed X-frame chassis">
+  <defs>
+    <radialGradient id="prop" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="currentColor" stop-opacity="0.05"/>
+      <stop offset="80%" stop-color="currentColor" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="currentColor" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- propeller discs -->
+  <circle cx="120" cy="120" r="90" fill="url(#prop)"/>
+  <circle cx="480" cy="120" r="90" fill="url(#prop)"/>
+  <circle cx="120" cy="480" r="90" fill="url(#prop)"/>
+  <circle cx="480" cy="480" r="90" fill="url(#prop)"/>
+
+  <!-- X-frame arms -->
+  <g stroke="url(#frame)" stroke-width="34" stroke-linecap="round" fill="none">
+    <line x1="300" y1="300" x2="120" y2="120"/>
+    <line x1="300" y1="300" x2="480" y2="120"/>
+    <line x1="300" y1="300" x2="120" y2="480"/>
+    <line x1="300" y1="300" x2="480" y2="480"/>
+  </g>
+
+  <!-- arm reinforcement ribs -->
+  <g stroke="currentColor" stroke-opacity="0.4" stroke-width="2" fill="none">
+    <line x1="300" y1="300" x2="120" y2="120" stroke-dasharray="4 6"/>
+    <line x1="300" y1="300" x2="480" y2="120" stroke-dasharray="4 6"/>
+    <line x1="300" y1="300" x2="120" y2="480" stroke-dasharray="4 6"/>
+    <line x1="300" y1="300" x2="480" y2="480" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- center hub plate -->
+  <rect x="240" y="240" width="120" height="120" rx="14" fill="currentColor" fill-opacity="0.85"/>
+  <rect x="252" y="252" width="96" height="96" rx="8" fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="1.5"/>
+  <circle cx="300" cy="300" r="22" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="2"/>
+  <circle cx="300" cy="300" r="6" fill="currentColor" fill-opacity="0.55"/>
+
+  <!-- motor mounts -->
+  <g fill="currentColor" fill-opacity="0.85">
+    <circle cx="120" cy="120" r="22"/>
+    <circle cx="480" cy="120" r="22"/>
+    <circle cx="120" cy="480" r="22"/>
+    <circle cx="480" cy="480" r="22"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="1.5">
+    <circle cx="120" cy="120" r="14"/>
+    <circle cx="480" cy="120" r="14"/>
+    <circle cx="120" cy="480" r="14"/>
+    <circle cx="480" cy="480" r="14"/>
+  </g>
+
+  <!-- propeller blades -->
+  <g stroke="currentColor" stroke-width="3" stroke-opacity="0.55" stroke-linecap="round">
+    <line x1="50" y1="120" x2="190" y2="120"/>
+    <line x1="120" y1="50" x2="120" y2="190"/>
+    <line x1="410" y1="120" x2="550" y2="120"/>
+    <line x1="480" y1="50" x2="480" y2="190"/>
+    <line x1="50" y1="480" x2="190" y2="480"/>
+    <line x1="120" y1="410" x2="120" y2="550"/>
+    <line x1="410" y1="480" x2="550" y2="480"/>
+    <line x1="480" y1="410" x2="480" y2="550"/>
+  </g>
+
+  <!-- camera tilt -->
+  <polygon points="285,222 315,222 305,205 295,205" fill="currentColor" fill-opacity="0.7"/>
+</svg>

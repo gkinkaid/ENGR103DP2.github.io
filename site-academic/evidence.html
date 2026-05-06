@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidence — Project Remote UGV</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="masthead">
+      <div class="brand">Project Remote UGV</div>
+      <div class="meta">ENGR 103 · Spring 2026</div>
+    </div>
+    <nav><ul>
+      <li><a href="index.html">Need</a></li>
+      <li><a href="solution.html">Solution</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="evidence.html" class="active">Evidence</a></li>
+      <li><a href="gallery.html">Plates</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <h1>§5 Evidence</h1>
+    <p class="subtitle">Weighted Benefit Analysis: UGV vs UAV</p>
+  </section>
+
+  <section>
+    <h2>5.1 WBA results</h2>
+    <table class="specs">
+      <thead><tr><th>Criterion</th><th>Weight</th><th>UGV</th><th>UAV</th><th>UGV score</th><th>UAV score</th></tr></thead>
+      <tbody>
+        <tr><td>Cost</td><td>5</td><td>5</td><td>1</td><td><strong>25</strong></td><td>5</td></tr>
+        <tr><td>Reusability</td><td>3</td><td>5</td><td>5</td><td>15</td><td>15</td></tr>
+        <tr><td>Uniform geometry</td><td>2</td><td>5</td><td>5</td><td>10</td><td>10</td></tr>
+        <tr><td><strong>Total</strong></td><td></td><td></td><td></td><td><strong>50</strong></td><td><strong>30</strong></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:14px; color:var(--ink-2); font-style:italic">UGV wins by a 67% margin. The decisive criterion is cost.</p>
+  </section>
+
+  <section>
+    <h2>5.2 Why cost is decisive</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:14px;">
+      <div class="note"><span class="label">UGV total</span><p style="margin:0; font-size:24px; font-weight:700">~$63</p></div>
+      <div class="note"><span class="label">UAV total</span><p style="margin:0; font-size:24px; font-weight:700">~$200+</p></div>
+      <div class="note"><span class="label">Saving per unit</span><p style="margin:0; font-size:24px; font-weight:700">−68%</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5.3 Mission fit</h2>
+    <table class="specs">
+      <thead><tr><th>SWAT requirement</th><th>UGV</th><th>UAV</th></tr></thead>
+      <tbody>
+        <tr><td>Quiet in confined spaces</td><td>✓</td><td>Loud (rotor downwash)</td></tr>
+        <tr><td>Travels under furniture</td><td>✓</td><td>No</td></tr>
+        <tr><td>Stable hover/hold position</td><td>Inherent (sits still)</td><td>Battery-limited</td></tr>
+        <tr><td>Operable with base training</td><td>✓ (drive only)</td><td>Requires flight skill</td></tr>
+        <tr><td>Campus-fabricable</td><td>✓ (USD lab printer)</td><td>Regulatory + safety overhead</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>5.4 Maps back to the need</h2>
+    <table class="specs">
+      <thead><tr><th>Need</th><th>Outcome</th></tr></thead>
+      <tbody>
+        <tr><td>Cost-effective / community-fundable</td><td>~$63 per unit (off-the-shelf parts only)</td></tr>
+        <tr><td>Lightweight, expendable</td><td>3D-printed PLA chassis, ~$3 to reprint</td></tr>
+        <tr><td>Operable with base training</td><td>Direct RC drive; no flight modes</td></tr>
+        <tr><td>Visual feedback</td><td>Onboard camera, live video to operator</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="page-nav">
+    <a href="feedback.html">&larr; §4 Feedback</a>
+    <a href="gallery.html">Plates &rarr;</a>
+  </div>
+</main>
+
+<footer class="foot">
+  <div>Remote UGV / ENGR 103 Design Project</div>
+  <div>R. Merry &amp; G. Kinkaid · 2026</div>
+</footer>
+
+</body>
+</html>

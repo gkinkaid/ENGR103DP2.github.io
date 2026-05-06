@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Solution — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>Skyframe <small>/ ENGR 103</small></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Need</a></li>
+        <li><a href="solution.html" class="active">Solution</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="evidence.html">Evidence</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div>
+      <span class="pill">Proposed Solution</span>
+      <h1>A printable, modular <span class="grad">X-frame chassis.</span></h1>
+      <p class="lead">An open-source 3D-printed quadcopter chassis you can print at the makerspace, repair in minutes, and modify for any project.</p>
+    </div>
+    <div class="visual">
+      <object type="image/svg+xml" data="assets/exploded.svg" aria-label="Exploded view of the drone"></object>
+      <p class="caption">Exploded view: chassis is the core, everything else bolts on.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>The prototype</h2>
+    <p>The chassis is a 250&thinsp;mm wheelbase X-frame printed in PLA+ on a Prusa MK4. Each arm is a separate piece that bolts into a central hub plate, so a crashed arm is a 90-minute reprint, not a $60 replacement order.</p>
+
+    <div class="grid-3" style="margin-top:18px">
+      <div class="photo">
+        <img src="images/printed-chassis-1.jpg" alt="Printed chassis hero" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>Front 3/4 of printed chassis</div>
+        <div class="ph-name">images/printed-chassis-1.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/printed-chassis-2.jpg" alt="Top-down chassis" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>Top-down view</div>
+        <div class="ph-name">images/printed-chassis-2.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/print-in-progress.jpg" alt="Chassis on printer bed" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>On the printer bed</div>
+        <div class="ph-name">images/print-in-progress.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Specs</h2>
+    <dl class="specs">
+      <div class="spec"><dt>Wheelbase</dt><dd>250 mm</dd></div>
+      <div class="spec"><dt>Material</dt><dd>PLA+ 1.75&thinsp;mm</dd></div>
+      <div class="spec"><dt>Infill</dt><dd>40% gyroid</dd></div>
+      <div class="spec"><dt>Print time</dt><dd>~9 hrs</dd></div>
+      <div class="spec"><dt>Mass (frame)</dt><dd>112 g</dd></div>
+      <div class="spec"><dt>Motor mounts</dt><dd>16×16 / 19×19</dd></div>
+      <div class="spec"><dt>Battery</dt><dd>4S 1500&thinsp;mAh</dd></div>
+      <div class="spec"><dt>Cost (frame)</dt><dd>~$4 in filament</dd></div>
+    </dl>
+    <p class="muted" style="margin-top:14px"><em>Note: replace numbers with your final measurements before presenting.</em></p>
+  </section>
+
+  <section>
+    <h2>Engineering drawing</h2>
+    <div class="visual muted">
+      <object type="image/svg+xml" data="assets/chassis-blueprint.svg" aria-label="Chassis blueprint with dimensions"></object>
+    </div>
+  </section>
+
+  <section>
+    <h2>Components</h2>
+    <p>The chassis is the heart of the build, but here's everything that goes on it:</p>
+    <div class="visual muted">
+      <object type="image/svg+xml" data="assets/components.svg" aria-label="Component icons"></object>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why a printed chassis?</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">$</div>
+        <h3>~$4 to replace</h3>
+        <p>A whole frame in filament costs less than a coffee. Even a re-print of every arm is under $2.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔧</div>
+        <h3>Modular arms</h3>
+        <p>Each of the four arms is a separate part. Crash one? Print one.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📐</div>
+        <h3>Tunable</h3>
+        <p>STL is parametric — change wheelbase, motor pattern, or arm thickness without redesigning from scratch.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🪶</div>
+        <h3>Light enough</h3>
+        <p>112&thinsp;g frame mass keeps total AUW under 480&thinsp;g — well within the FAA recreational limit.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+  <section class="center">
+    <p class="muted">Next: how real users responded to this prototype.</p>
+    <a href="feedback.html" class="btn btn-primary">User Feedback →</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · University of San Diego · Spring 2026
+</footer>
+
+</body>
+</html>

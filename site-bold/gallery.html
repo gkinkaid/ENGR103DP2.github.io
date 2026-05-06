@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>SKYFRAME</span>
+    </a>
+    <nav><ul>
+      <li><a href="index.html">Need</a></li>
+      <li><a href="solution.html">Solution</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="evidence.html">Evidence</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero" style="background: linear-gradient(135deg, var(--c1), var(--c3));">
+    <div class="hero-inner">
+      <div>
+        <span class="pill">Photo Gallery</span>
+        <h1>From printer to first flight. 📸</h1>
+        <p class="lead">Drop your photos into the <code>images/</code> folder using the filenames shown — they'll replace the placeholders automatically.</p>
+      </div>
+      <div class="hero-art" style="display:flex; align-items:center; justify-content:center; min-height:200px; font-size:6rem;">
+        🚁
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>The chassis 🔩</h2>
+    <div class="grid-3">
+      <div class="photo">
+        <img src="images/printed-chassis-1.jpg" alt="Hero shot" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Hero shot</strong></div>
+        <div class="ph-name">images/printed-chassis-1.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/printed-chassis-2.jpg" alt="Top down" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Top down</strong></div>
+        <div class="ph-name">images/printed-chassis-2.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/printed-chassis-3.jpg" alt="Detail shot" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Detail shot</strong></div>
+        <div class="ph-name">images/printed-chassis-3.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The build 🔧</h2>
+    <div class="grid-3">
+      <div class="photo">
+        <img src="images/print-in-progress.jpg" alt="Mid-print" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Mid-print</strong></div>
+        <div class="ph-name">images/print-in-progress.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/drone-assembled.jpg" alt="Assembled" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Assembled</strong></div>
+        <div class="ph-name">images/drone-assembled.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/flight-test.jpg" alt="Flight test" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>First flight</strong></div>
+        <div class="ph-name">images/flight-test.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Drawings 📐</h2>
+    <div class="visual purple">
+      <object type="image/svg+xml" data="assets/chassis-blueprint.svg" aria-label="Blueprint"></object>
+      <p class="caption">Engineering drawing — top view + arm cross section.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Add a flight video 🎬</h2>
+    <div class="callout" style="background:#fff; border:3px solid var(--ink);">
+      <p style="margin-bottom:10px">If you upload a flight video to YouTube, paste the embed code in <code>gallery.html</code>:</p>
+      <pre style="background:var(--bg-2); padding:14px; border-radius:8px; font-size:12px; overflow-x:auto; border:2px solid var(--ink);">&lt;iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</pre>
+    </div>
+  </section>
+
+  <section style="text-align:center">
+    <a href="index.html" class="btn btn-secondary">← Back to start</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · USD · Spring 2026
+</footer>
+
+</body>
+</html>

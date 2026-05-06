@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidence — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>SKYFRAME</span>
+    </a>
+    <nav><ul>
+      <li><a href="index.html">Need</a></li>
+      <li><a href="solution.html">Solution</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="evidence.html" class="active">Evidence</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero" style="background: linear-gradient(135deg, var(--c5), var(--c4));">
+    <div class="hero-inner">
+      <div>
+        <span class="pill">Does it work?</span>
+        <h1>The proof. ✅</h1>
+        <p class="lead">Cheaper. Faster to repair. Same flight time. Here's the data.</p>
+      </div>
+      <div class="hero-art" style="display:flex; align-items:center; justify-content:center; min-height:200px; font-size:6rem;">
+        📊
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>The headline numbers 🎯</h2>
+    <div class="cards" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))">
+      <div class="big-stat">
+        <div class="num">−94%</div>
+        <div class="label">Frame cost vs carbon</div>
+      </div>
+      <div class="big-stat" style="background:var(--c1); color:#fff">
+        <div class="num" style="color:#fff">22min</div>
+        <div class="label" style="color:#fff">to repair after crash</div>
+      </div>
+      <div class="big-stat" style="background:var(--c3); color:#fff">
+        <div class="num" style="color:#fff">5:40</div>
+        <div class="label" style="color:#fff">hover time on 4S 1500</div>
+      </div>
+      <div class="big-stat" style="background:var(--c4)">
+        <div class="num">5/5</div>
+        <div class="label">drop tests passed (1.5m)</div>
+      </div>
+    </div>
+    <p class="lead" style="font-size:14px; color:var(--ink-2); font-style:italic; margin-top:14px">Replace these with your real measured numbers before presenting.</p>
+  </section>
+
+  <section>
+    <h2>Side-by-side 🥊</h2>
+    <dl class="specs" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))">
+      <div class="spec"><dt>Frame Cost</dt><dd>$4 vs $65</dd></div>
+      <div class="spec"><dt>Replace 1 arm</dt><dd>$1 vs N/A</dd></div>
+      <div class="spec"><dt>Repair time</dt><dd>22min vs 3 days</dd></div>
+      <div class="spec"><dt>Frame mass</dt><dd>112g vs 96g</dd></div>
+      <div class="spec"><dt>Customizable</dt><dd>Yes vs No</dd></div>
+      <div class="spec"><dt>Crash recovery</dt><dd>Reprint vs Replace</dd></div>
+    </dl>
+  </section>
+
+  <section>
+    <h2>The actual tests 🧪</h2>
+    <div class="cards">
+      <div class="card c1">
+        <div class="icon">💥</div>
+        <h3>Drop test</h3>
+        <p>Dropped from 1.5&thinsp;m onto concrete five times. v3 frame: zero cracks. v2: cracked one arm on the third drop.</p>
+      </div>
+      <div class="card c2">
+        <div class="icon">⏱️</div>
+        <h3>Flight time</h3>
+        <p>5&thinsp;min 40&thinsp;sec hover on a 4S 1500&thinsp;mAh — within 8% of the same components on a stock carbon frame.</p>
+      </div>
+      <div class="card c3">
+        <div class="icon">📡</div>
+        <h3>Vibration</h3>
+        <p>Gyro noise stayed below default Betaflight filter cutoffs — printed frame doesn't add bad vibration.</p>
+      </div>
+      <div class="card c5">
+        <div class="icon">🔄</div>
+        <h3>Real crash recovery</h3>
+        <p>After an actual crash, replacing the broken arm took <strong>22 minutes total</strong>. Faster than ordering a part.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Did it solve the problem? 🎯</h2>
+    <div class="callout">
+      <p style="margin-bottom:10px"><strong>💸 Cost:</strong> Frame cost dropped from ~$65 to ~$4. ✓</p>
+      <p style="margin-bottom:10px"><strong>🛡️ Fragility:</strong> PLA+ flexes and absorbs impact instead of shattering. ✓</p>
+      <p style="margin-bottom:10px"><strong>🔧 Repairability:</strong> Single-arm reprint in &lt;90 min vs replacing whole frame. ✓</p>
+      <p style="margin:0"><strong>🎨 Customization:</strong> Parametric STL — anyone with Fusion 360 can tweak it. ✓</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What's next 🔮</h2>
+    <ul class="bullets">
+      <li>Run a longer flight test once batteries fully break in.</li>
+      <li>Print a PETG version and compare crash performance vs PLA+.</li>
+      <li>Publish the parametric STL on Printables so other students can remix it.</li>
+      <li>Add an optional GoPro mount as a bolt-on accessory plate.</li>
+    </ul>
+  </section>
+
+  <section style="text-align:center">
+    <h2>Want to see more? 📸</h2>
+    <a href="gallery.html" class="btn btn-primary">Photo gallery →</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · USD · Spring 2026
+</footer>
+
+</body>
+</html>

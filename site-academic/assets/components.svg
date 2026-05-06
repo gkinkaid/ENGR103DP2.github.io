@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Remote UGV component icons">
+  <g fill="none" stroke="currentColor" stroke-width="2" font-family="system-ui, sans-serif" font-size="12">
+    <!-- chassis -->
+    <g transform="translate(60 80)">
+      <rect x="-30" y="-12" width="60" height="24" rx="4" fill="currentColor" fill-opacity="0.15"/>
+      <text x="0" y="55" text-anchor="middle" stroke="none" fill="currentColor">Chassis</text>
+    </g>
+    <!-- Raspberry Pi -->
+    <g transform="translate(180 80)">
+      <rect x="-22" y="-16" width="44" height="32" rx="3" fill="currentColor" fill-opacity="0.15"/>
+      <circle cx="-12" cy="-6" r="3"/>
+      <circle cx="12" cy="-6" r="3"/>
+      <rect x="-8" y="2" width="16" height="8" stroke-opacity="0.6"/>
+      <text x="0" y="55" text-anchor="middle" stroke="none" fill="currentColor">Raspberry Pi</text>
+    </g>
+    <!-- Motor driver -->
+    <g transform="translate(300 80)">
+      <rect x="-20" y="-14" width="40" height="28" rx="3" fill="currentColor" fill-opacity="0.15"/>
+      <line x1="-12" y1="-14" x2="-12" y2="-20"/>
+      <line x1="0" y1="-14" x2="0" y2="-20"/>
+      <line x1="12" y1="-14" x2="12" y2="-20"/>
+      <text x="0" y="55" text-anchor="middle" stroke="none" fill="currentColor">Motor Driver</text>
+    </g>
+    <!-- DC motor -->
+    <g transform="translate(420 80)">
+      <rect x="-22" y="-12" width="36" height="24" rx="3" fill="currentColor" fill-opacity="0.15"/>
+      <circle cx="18" cy="0" r="6"/>
+      <text x="0" y="55" text-anchor="middle" stroke="none" fill="currentColor">DC Motors ×2</text>
+    </g>
+    <!-- Battery -->
+    <g transform="translate(540 80)">
+      <rect x="-25" y="-14" width="50" height="28" rx="3" fill="currentColor" fill-opacity="0.15"/>
+      <line x1="0" y1="-14" x2="0" y2="14" stroke-opacity="0.4"/>
+      <rect x="25" y="-5" width="4" height="10" fill="currentColor" stroke="none"/>
+      <text x="0" y="55" text-anchor="middle" stroke="none" fill="currentColor">Dual Battery</text>
+    </g>
+    <!-- Camera -->
+    <g transform="translate(660 80)">
+      <rect x="-20" y="-14" width="40" height="28" rx="3" fill="currentColor" fill-opacity="0.15"/>
+      <circle cx="0" cy="0" r="9"/>
+      <circle cx="0" cy="0" r="4" fill="currentColor" stroke="none"/>
+      <text x="0" y="55" text-anchor="middle" stroke="none" fill="currentColor">Camera</text>
+    </g>
+  </g>
+</svg>

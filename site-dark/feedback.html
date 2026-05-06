@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Feedback — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>Skyframe <small>/ ENGR 103</small></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Need</a></li>
+        <li><a href="solution.html">Solution</a></li>
+        <li><a href="feedback.html" class="active">Feedback</a></li>
+        <li><a href="evidence.html">Evidence</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <span class="pill">User Feedback</span>
+    <h1>What real users said.</h1>
+    <p class="lead">I showed the printed chassis and assembled prototype to [NUMBER] potential users — [DESCRIBE WHO: e.g., classmates in ENGR 103, members of the USD drone club, makerspace staff] — and asked them to handle it, mount components, and tell me what worked and what didn't.</p>
+    <div class="callout">
+      <p style="margin:0"><strong>Note for Gavin:</strong> Replace every <span class="placeholder-tag">PLACEHOLDER</span> below with the actual quotes and feedback you collected. The structure is set up — just swap in real text.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What they said</h2>
+
+    <div class="quote">
+      <blockquote>[PASTE REAL QUOTE HERE — e.g., "The arms feel solid but the center plate flexes when I push on the battery strap mounts."]</blockquote>
+      <cite><strong>[Name / role]</strong> — [date or context] <span class="placeholder-tag">Placeholder</span></cite>
+    </div>
+
+    <div class="quote">
+      <blockquote>[PASTE REAL QUOTE HERE — e.g., "I love that I can just print a new arm. Last drone I had, one bad crash and it was junk."]</blockquote>
+      <cite><strong>[Name / role]</strong> — [date or context] <span class="placeholder-tag">Placeholder</span></cite>
+    </div>
+
+    <div class="quote">
+      <blockquote>[PASTE REAL QUOTE HERE — e.g., "The motor mount holes line up but the screws bottom out — they need to be 2mm longer or the holes 2mm deeper."]</blockquote>
+      <cite><strong>[Name / role]</strong> — [date or context] <span class="placeholder-tag">Placeholder</span></cite>
+    </div>
+
+    <div class="quote">
+      <blockquote>[PASTE REAL QUOTE HERE — e.g., "Could you mark which arm is front? I keep grabbing it backwards."]</blockquote>
+      <cite><strong>[Name / role]</strong> — [date or context] <span class="placeholder-tag">Placeholder</span></cite>
+    </div>
+  </section>
+
+  <section>
+    <h2>What I changed in response</h2>
+    <p>The feedback drove three concrete revisions to the chassis design:</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">1</div>
+        <h3>Reinforced center plate</h3>
+        <p>Added internal ribs and bumped infill from 25% to 40% gyroid where users reported flex. Plate stiffness improved measurably (see Evidence).</p>
+        <p class="muted" style="font-size:12px">Driven by: feedback #1 <span class="placeholder-tag">[Replace]</span></p>
+      </div>
+      <div class="card">
+        <div class="icon">2</div>
+        <h3>Deeper motor screw bosses</h3>
+        <p>Extended the motor mount hole depth from 6&thinsp;mm to 9&thinsp;mm so M3 screws fully thread without bottoming.</p>
+        <p class="muted" style="font-size:12px">Driven by: feedback #3 <span class="placeholder-tag">[Replace]</span></p>
+      </div>
+      <div class="card">
+        <div class="icon">3</div>
+        <h3>Front-arrow indicator</h3>
+        <p>Embossed an arrow into the top of the front-right arm so orientation is obvious at a glance, even in poor light.</p>
+        <p class="muted" style="font-size:12px">Driven by: feedback #4 <span class="placeholder-tag">[Replace]</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Design iterations</h2>
+    <div class="visual muted">
+      <object type="image/svg+xml" data="assets/iteration.svg" aria-label="v1, v2, v3 iterations"></object>
+    </div>
+    <p class="muted" style="text-align:center; margin-top:6px">Three rounds of design revision. v3 is what's printed and flying today.</p>
+  </section>
+
+  <hr class="divider">
+  <section class="center">
+    <p class="muted">Next: evidence that the redesigned chassis actually addresses the original need.</p>
+    <a href="evidence.html" class="btn btn-primary">See Evidence →</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · University of San Diego · Spring 2026
+</footer>
+
+</body>
+</html>

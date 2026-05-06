@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Solution — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>SKYFRAME</span>
+    </a>
+    <nav><ul>
+      <li><a href="index.html">Need</a></li>
+      <li><a href="solution.html" class="active">Solution</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="evidence.html">Evidence</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="pill">The Build</span>
+        <h1>Print it. Fly it. Reprint it. 🛠️</h1>
+        <p class="lead">A 250&thinsp;mm X-frame chassis you can print in PLA+ for about $4 in filament. Single-arm replaceable. Fully modular.</p>
+      </div>
+      <div class="hero-art">
+        <object type="image/svg+xml" data="assets/exploded.svg" aria-label="Exploded view"></object>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>What it actually is 📦</h2>
+    <p>The chassis is a four-arm X-frame with a central hub plate. Each arm bolts on independently — so when (not if) you crash one, you reprint just that arm and you're back in the air the same afternoon.</p>
+
+    <div class="grid-3" style="margin-top:24px">
+      <div class="photo">
+        <img src="images/printed-chassis-1.jpg" alt="Printed chassis hero" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Hero shot</strong></div>
+        <div class="ph-name">images/printed-chassis-1.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/printed-chassis-2.jpg" alt="Top-down chassis" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Top down</strong></div>
+        <div class="ph-name">images/printed-chassis-2.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/print-in-progress.jpg" alt="Chassis on printer bed" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div><strong>Mid-print</strong></div>
+        <div class="ph-name">images/print-in-progress.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The numbers 📊</h2>
+    <dl class="specs">
+      <div class="spec"><dt>Wheelbase</dt><dd>250 mm</dd></div>
+      <div class="spec"><dt>Material</dt><dd>PLA+</dd></div>
+      <div class="spec"><dt>Infill</dt><dd>40%</dd></div>
+      <div class="spec"><dt>Print time</dt><dd>~9 hrs</dd></div>
+      <div class="spec"><dt>Mass</dt><dd>112 g</dd></div>
+      <div class="spec"><dt>Frame cost</dt><dd>~$4</dd></div>
+      <div class="spec"><dt>Battery</dt><dd>4S 1500</dd></div>
+      <div class="spec"><dt>Motor mount</dt><dd>16/19</dd></div>
+    </dl>
+    <p class="lead" style="font-size:14px; color:var(--ink-2); font-style:italic">Replace these with your final measured values before presenting.</p>
+  </section>
+
+  <section>
+    <h2>The blueprint 📐</h2>
+    <div class="visual purple">
+      <object type="image/svg+xml" data="assets/chassis-blueprint.svg" aria-label="Chassis blueprint"></object>
+      <p class="caption">All dimensions in millimeters.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Every part 🧩</h2>
+    <p>The chassis is the heart of it. Everything else just bolts on:</p>
+    <div class="visual pink">
+      <object type="image/svg+xml" data="assets/components.svg" aria-label="Components"></object>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why printed? 🤔</h2>
+    <div class="cards">
+      <div class="card c1">
+        <div class="icon">$</div>
+        <h3>Stupid cheap</h3>
+        <p>~$4 to replace the whole thing in filament. Less than a coffee.</p>
+      </div>
+      <div class="card c2">
+        <div class="icon">🔧</div>
+        <h3>Modular arms</h3>
+        <p>Crash one arm? Print one arm. Don't replace the entire frame.</p>
+      </div>
+      <div class="card c3">
+        <div class="icon">📐</div>
+        <h3>Tunable</h3>
+        <p>Parametric STL = adjust wheelbase, motor pattern, payload mounts in minutes.</p>
+      </div>
+      <div class="card c5">
+        <div class="icon">🪶</div>
+        <h3>Light enough</h3>
+        <p>112&thinsp;g frame keeps total weight under FAA recreational limits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align:center">
+    <h2>What real users said 🗣️</h2>
+    <a href="feedback.html" class="btn btn-primary">Read the feedback →</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · USD · Spring 2026
+</footer>
+
+</body>
+</html>

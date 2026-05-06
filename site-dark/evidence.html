@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidence — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>Skyframe <small>/ ENGR 103</small></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Need</a></li>
+        <li><a href="solution.html">Solution</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="evidence.html" class="active">Evidence</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <span class="pill">Does it work?</span>
+    <h1>How the prototype <span class="grad">addresses the need.</span></h1>
+    <p class="lead">Going back to the four pain points from the Need page — here's how the printed chassis stacks up against an off-the-shelf carbon-fiber alternative.</p>
+  </section>
+
+  <section>
+    <h2>Side-by-side comparison</h2>
+    <dl class="specs">
+      <div class="spec"><dt>Frame Cost</dt><dd>$4 vs $65</dd></div>
+      <div class="spec"><dt>Replace one arm</dt><dd>$1 vs $65*</dd></div>
+      <div class="spec"><dt>Time to repair</dt><dd>1.5 hr print vs 3-day shipping</dd></div>
+      <div class="spec"><dt>Frame mass</dt><dd>112 g vs 96 g</dd></div>
+      <div class="spec"><dt>Customizable</dt><dd>Yes (parametric STL) vs No</dd></div>
+      <div class="spec"><dt>Crash recovery</dt><dd>Re-print vs Replace whole frame</dd></div>
+    </dl>
+    <p class="muted" style="margin-top:10px; font-size:13px">*Most carbon frames are sold as full kits, not single-arm replacements.</p>
+  </section>
+
+  <section>
+    <h2>Test results</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">✓</div>
+        <h3>Drop test</h3>
+        <p>Dropped the assembled chassis from 1.5&thinsp;m onto concrete five times. v3 frame: zero cracks. v2 frame: cracked one arm on the third drop.</p>
+      </div>
+      <div class="card">
+        <div class="icon">✓</div>
+        <h3>Flight time</h3>
+        <p>5&thinsp;min 40&thinsp;sec hover on a 4S 1500&thinsp;mAh pack — within 8% of the same components on a stock carbon frame.</p>
+      </div>
+      <div class="card">
+        <div class="icon">✓</div>
+        <h3>Vibration</h3>
+        <p>Gyro noise on the flight controller measured below the noise threshold for default Betaflight filtering, indicating the printed frame doesn't introduce problematic vibration.</p>
+      </div>
+      <div class="card">
+        <div class="icon">✓</div>
+        <h3>Repair after crash</h3>
+        <p>After a real crash test, replacing the broken arm took <strong>22 minutes total</strong> (including the print). Faster than ordering a part.</p>
+      </div>
+    </div>
+    <p class="muted" style="margin-top:14px"><em>Update these numbers with your actual measured results before presenting.</em></p>
+  </section>
+
+  <section>
+    <h2>How it maps back to the need</h2>
+    <div class="callout">
+      <p style="color:var(--ink); margin:0 0 10px"><strong>Cost</strong> — frame cost dropped from ~$65 to ~$4. ✓</p>
+      <p style="color:var(--ink); margin:0 0 10px"><strong>Fragility</strong> — PLA+ flexes and absorbs impact instead of shattering. ✓</p>
+      <p style="color:var(--ink); margin:0 0 10px"><strong>Repairability</strong> — single-arm reprint in &lt;90 min vs replacing whole frame. ✓</p>
+      <p style="color:var(--ink); margin:0"><strong>Customization</strong> — parametric STL means anyone with Fusion 360 can adjust wheelbase, motor pattern, or payload mounts. ✓</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What's next</h2>
+    <ul class="bullets">
+      <li>Run a longer-duration flight test once batteries fully break in.</li>
+      <li>Print a variant in PETG and compare crash performance vs. PLA+.</li>
+      <li>Publish the parametric STL on Printables so other students can remix it.</li>
+      <li>Add an optional GoPro mount as a bolt-on accessory plate.</li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+  <section class="center">
+    <p class="muted">Want to see more photos and the build in action?</p>
+    <a href="gallery.html" class="btn btn-primary">View Gallery →</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · University of San Diego · Spring 2026
+</footer>
+
+</body>
+</html>

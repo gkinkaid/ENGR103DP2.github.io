@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-label="Exploded view of drone showing chassis, motors, propellers, electronics">
+  <g font-family="system-ui, sans-serif" font-size="13" fill="currentColor">
+    <!-- propellers (top layer) -->
+    <g transform="translate(350 60)">
+      <ellipse cx="-90" cy="0" rx="50" ry="6" fill="currentColor" fill-opacity="0.5"/>
+      <ellipse cx="90" cy="0" rx="50" ry="6" fill="currentColor" fill-opacity="0.5"/>
+      <ellipse cx="-90" cy="0" rx="6" ry="50" fill="currentColor" fill-opacity="0.5"/>
+      <ellipse cx="90" cy="0" rx="6" ry="50" fill="currentColor" fill-opacity="0.5"/>
+    </g>
+    <text x="560" y="65" fill-opacity="0.85">5" Propellers (×4)</text>
+    <line x1="450" y1="60" x2="555" y2="60" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- motors -->
+    <g transform="translate(350 150)">
+      <rect x="-110" y="-15" width="40" height="30" rx="4" fill="currentColor" fill-opacity="0.75"/>
+      <rect x="70" y="-15" width="40" height="30" rx="4" fill="currentColor" fill-opacity="0.75"/>
+      <circle cx="-90" cy="0" r="8" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+      <circle cx="90" cy="0" r="8" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+    </g>
+    <text x="560" y="155" fill-opacity="0.85">2207 Brushless Motors (×4)</text>
+    <line x1="465" y1="150" x2="555" y2="150" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- chassis (main highlight) -->
+    <g transform="translate(350 260)">
+      <rect x="-150" y="-30" width="300" height="60" rx="8" fill="currentColor" fill-opacity="0.9"/>
+      <rect x="-130" y="-20" width="260" height="40" rx="4" fill="none" stroke="currentColor" stroke-opacity="0.3"/>
+      <circle cx="-110" cy="0" r="4" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+      <circle cx="110" cy="0" r="4" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
+      <circle cx="-110" cy="-15" r="3" fill="currentColor" fill-opacity="0.4"/>
+      <circle cx="110" cy="-15" r="3" fill="currentColor" fill-opacity="0.4"/>
+      <circle cx="-110" cy="15" r="3" fill="currentColor" fill-opacity="0.4"/>
+      <circle cx="110" cy="15" r="3" fill="currentColor" fill-opacity="0.4"/>
+    </g>
+    <text x="560" y="265" font-weight="bold" fill-opacity="0.95">3D-Printed Chassis</text>
+    <text x="560" y="282" fill-opacity="0.65" font-size="11">PLA+ • X-frame • 250mm</text>
+    <line x1="510" y1="260" x2="555" y2="260" stroke="currentColor" stroke-opacity="0.7" stroke-width="2"/>
+
+    <!-- flight controller / ESC stack -->
+    <g transform="translate(350 360)">
+      <rect x="-50" y="-15" width="100" height="30" rx="4" fill="currentColor" fill-opacity="0.7"/>
+      <line x1="-40" y1="-7" x2="40" y2="-7" stroke="currentColor" stroke-opacity="0.4"/>
+      <line x1="-40" y1="0" x2="40" y2="0" stroke="currentColor" stroke-opacity="0.4"/>
+      <line x1="-40" y1="7" x2="40" y2="7" stroke="currentColor" stroke-opacity="0.4"/>
+    </g>
+    <text x="560" y="365" fill-opacity="0.85">Flight Controller + ESC</text>
+    <line x1="475" y1="360" x2="555" y2="360" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- battery -->
+    <g transform="translate(350 450)">
+      <rect x="-70" y="-18" width="140" height="36" rx="6" fill="currentColor" fill-opacity="0.6"/>
+      <rect x="-60" y="-10" width="120" height="20" rx="2" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
+    </g>
+    <text x="560" y="455" fill-opacity="0.85">4S LiPo Battery</text>
+    <line x1="495" y1="450" x2="555" y2="450" stroke="currentColor" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- vertical assembly axis -->
+    <line x1="350" y1="40" x2="350" y2="490" stroke="currentColor" stroke-opacity="0.15" stroke-dasharray="3 5"/>
+
+    <!-- left labels -->
+    <text x="40" y="65" text-anchor="start" fill-opacity="0.65" font-size="11">— TOP —</text>
+    <text x="40" y="455" text-anchor="start" fill-opacity="0.65" font-size="11">— BOTTOM —</text>
+  </g>
+</svg>

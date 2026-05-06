@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Skyframe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"></div>
+      <span>Skyframe <small>/ ENGR 103</small></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Need</a></li>
+        <li><a href="solution.html">Solution</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="evidence.html">Evidence</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <span class="pill">Build photos</span>
+    <h1>From printer to <span class="grad">first flight.</span></h1>
+    <p class="lead">Drop your real photos into the <code>images/</code> folder using the filenames shown under each card. They'll replace the placeholders automatically.</p>
+  </section>
+
+  <section>
+    <h2>The chassis</h2>
+    <div class="grid-3">
+      <div class="photo">
+        <img src="images/printed-chassis-1.jpg" alt="Chassis hero" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>Hero shot — front 3/4</div>
+        <div class="ph-name">images/printed-chassis-1.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/printed-chassis-2.jpg" alt="Top-down chassis" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>Top-down view</div>
+        <div class="ph-name">images/printed-chassis-2.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/printed-chassis-3.jpg" alt="Detail shot" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>Detail / mounting points</div>
+        <div class="ph-name">images/printed-chassis-3.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The build process</h2>
+    <div class="grid-3">
+      <div class="photo">
+        <img src="images/print-in-progress.jpg" alt="On the printer" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>On the printer bed</div>
+        <div class="ph-name">images/print-in-progress.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/drone-assembled.jpg" alt="Assembled drone" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>Fully assembled</div>
+        <div class="ph-name">images/drone-assembled.jpg</div>
+      </div>
+      <div class="photo">
+        <img src="images/flight-test.jpg" alt="Flight test" onerror="this.style.display='none'">
+        <div class="ph-icon">📷</div>
+        <div>First flight</div>
+        <div class="ph-name">images/flight-test.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical drawings</h2>
+    <div class="visual muted">
+      <object type="image/svg+xml" data="assets/chassis-blueprint.svg" aria-label="Blueprint"></object>
+      <p class="caption">Engineering drawing — top view + arm cross section.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Add a flight video</h2>
+    <div class="callout">
+      <p style="margin:0">If you upload a flight video to YouTube, replace the block below with an embed:</p>
+      <pre style="background:var(--bg-2); padding:14px; border-radius:8px; margin-top:10px; font-size:12px; color:var(--ink-2); overflow-x:auto;">&lt;iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+  <section class="center">
+    <a href="index.html" class="btn btn-ghost">← Back to start</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  Built by Gavin Kinkaid · ENGR 103 · University of San Diego · Spring 2026
+</footer>
+
+</body>
+</html>
