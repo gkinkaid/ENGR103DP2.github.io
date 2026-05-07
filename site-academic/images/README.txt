@@ -10,8 +10,8 @@ Required photos (the site references these):
   printed-chassis-2.jpg  — Top-down photo of the chassis
   printed-chassis-3.jpg  — Detail / close-up photo (mounting points, infill, etc.)
   print-in-progress.jpg  — Photo of the chassis on the printer bed (optional but cool)
-  drone-assembled.jpg    — The assembled drone with motors/electronics installed
-  flight-test.jpg        — Action shot from a flight or test session
+  drone-assembled.jpg    — The assembled UGV with motors/electronics installed
+  flight-test.jpg        — Action shot from a test drive
 
 Tips:
   • JPG or PNG both work. Keep file size under ~1 MB each for fast loading on GitHub Pages.
